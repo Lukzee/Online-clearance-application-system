@@ -1,0 +1,340 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.bgnd {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/home-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: anim 20s ease-in-out infinite;
+}
+
+@keyframes anim {
+    0%,100%{
+        background-image: url(../images/home-banner.jpg);
+    }
+    50%{
+        background-image: url(../images/hero_1.jpg);
+    }
+}
+
+.navbargg {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.navbarggs {
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    background-color: #ccc;
+}
+
+.navbargg ul {
+    float: right;
+}
+
+.navbarggs ul {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    padding: 8px;
+    align-items: center;
+}
+
+li a {
+    color: #554d4d;
+}
+
+li a:hover {
+    color: white;
+}
+
+li a:active {
+    color: aqua;
+}
+
+.navbargg a i {
+    color: #554d4d;
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 10px;
+    margin: 8px;
+}
+
+.navbarggs a i {
+    color: #554d4d;
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 10px;
+    margin: 8px;
+}
+
+.btnP {
+    background-color: skyblue;
+    padding: 5px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+
+.bgim {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/blog_large_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.lgpage {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.logfrm {
+    width: 46%;
+    padding: 2%;
+    background-color: rgba(255,255,255,0.4);
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.logfrm p {
+    color: #0a0707;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.txt {
+    width: 98%;
+    height: 40px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    background-color: rgba(255,255,255,0);
+    border-bottom: 2px solid white;
+}
+
+.logfrm ::placeholder {
+    color: black;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 50px;
+    margin: 5px auto;
+}
+
+.arrowbk {
+    background-color: rgb(0,0,0,0.4);
+    padding: 15px;
+    margin-top: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.arrowbk:hover {
+    background-color: black;
+    color: blue;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#icn {
+    position: absolute;
+    top: 30%;
+    right: 6%;
+}
+
+.txtHed {
+    text-align: center;
+    padding: 5%;
+}
+
+.txtHed h2 {
+    color: darkblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.txtHed p {
+    color: #9a9292;
+    font-style: italic;
+}
+
+.icn {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.cntnt {
+    width: 29%;
+    padding: 2%;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #9a9292;
+    font-style: italic;
+    background-color: rgba(239, 237, 237, 0.6);
+}
+
+.cntnt h4 {
+    color: darkblue;
+    font-weight: bold;
+    font-style: normal;
+}
+
+table.studTable {
+    color: black;
+    font-size: 25px;
+    font-family: monospace;
+    width: 600px;
+    margin: 20px;
+}
+
+table {
+    border: 2px solid blue;
+}
+
+.studTable td {
+    padding: 10px 20px;
+}
+
+.studTable th {
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+th img.proPic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.textM {
+    margin-top: 50px;
+    width: 600px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+#applyCl h2 {
+    text-align: center;
+}
+
+#applyCl {
+    display: none;
+}
+
+#applyCl p {
+    padding: 20px;
+    margin: 20px;
+    font-family: monospace;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.applytxt {
+    width: auto;
+    border: none;
+    border-bottom: 1px solid black;
+    font-style: italic;
+}
+
+.aplbtndiv {
+    text-align: center;
+}
+
+#checkCl h2 {
+    text-align: center;
+}
+
+#checkCl h4 {
+    text-align: center;
+}
+
+#checkCl {
+    display: none;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+    border: 1px solid purple;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#checkCls {
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#checkCls h2 {
+    text-align: center;
+}
+
+#checkCls h4 {
+    text-align: center;
+}
+
+.thd {
+    background-color: #ccc;
+    color: blue;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.uTable th {
+    padding: 10px;
+}
+
+.uTable td {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

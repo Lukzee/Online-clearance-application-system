@@ -1,0 +1,1 @@
+INSERT INTO `studentinfo`(`name`, `phone`, `department`, `program`, `stream`, `regNo`, `yearEnt`, `yearGrad`, `pass`) VALUES ("David Patient", "09078935671", "Mass Communication", "Higher National Diploma", "A", "17/126781", "2018", "2019", "stud");
